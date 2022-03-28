@@ -113,3 +113,6 @@ const number2 = 100
 // Set two:
 const number3 = 27
 const number4 = 24
+
+console.log(Math.max(number1, number2) - Math.min(number1, number2))
+console.log(Math.max(number3, number4) - Math.min(number3, number4))
