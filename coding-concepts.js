@@ -18,17 +18,17 @@ const colors = ["tangerine", "magenta", "lilac", "daffodil"]
 const cohort = "LEARN 2022"
 // console.log(cohort.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: 10
+// b) Verify and explain: .length in this case will log 10, one space for each character position in the string, even the spaces.
 
 
 // --------------------2) What will this log?
 
 const greeting = "Hello World!"
-// console.log(greeting[4])
+console.log(greeting[4])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: 
+// b) Verify and explain: 
 
 
 // --------------------3) What will this log?
