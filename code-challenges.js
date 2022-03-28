@@ -1,51 +1,62 @@
-// ASSESSMENT 1: Coding Practical Questions
+// // ASSESSMENT 1: Coding Practical Questions
 
-// To run file: navigate to the correct directory in terminal, $ node code-challenges.js
+// // To run file: navigate to the correct directory in terminal, $ node code-challenges.js
 
-// Pseudo coding is required.
+// // Pseudo coding is required.
 
-// --------------------INSTRUCTOR EXAMPLE: Create a function that takes in any two strings and returns the string with more characters. Use the two sets of test variables provided.
+// // --------------------INSTRUCTOR EXAMPLE: Create a function that takes in any two strings and returns the string with more characters. Use the two sets of test variables provided.
 
-// Set one:
-const fruit1 = "apple"
-const fruit2 = "banana"
+// // Set one:
+// const fruit1 = "apple"
+// const fruit2 = "banana"
 
-// Set two:
-const fruit3 = "cherry"
-const fruit4 = "kiwi"
-
-
-// --------------------1) Create a function that takes in any given number and determines if the number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below. Expected output: "42 is below boiling point", "350 is above boiling point", "212 is at boiling point"
-
-const temp1 = 42
-const temp2 = 350
-const temp3 = 212
-
-// My Pseudo Code:
-// Create a function called boilingPoint that takes in a number parameter
-// if the number is at boiling point (212) then return the specified text
-// else if the number is above the boiling point (350) then return the specified text
-// else (42) log the only remaining specified text since it will be below the boiling point.
-// log the output via function call inside console.log
-
-const boilingPoint = (sample) => {
-    if (sample === 212) {
-        return "212 is at boiling point"
-    } else if (sample === 350) {
-        return "350 is above boiling point"
-    } else {
-        return "42 is below boiling point"
-    }
-}
-console.log(boilingPoint(temp1)) // 42 is below boiling point
-console.log(boilingPoint(temp2)) // 350 is above boiling point
-console.log(boilingPoint(temp3)) // 212 is at boiling point
+// // Set two:
+// const fruit3 = "cherry"
+// const fruit4 = "kiwi"
 
 
-// --------------------2) Create the code that will combine the two arrays and return the length using the variables provided below. Expected output: 10
+// // --------------------1) Create a function that takes in any given number and determines if the number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below. Expected output: "42 is below boiling point", "350 is above boiling point", "212 is at boiling point"
 
-const myNumbers1 = [3, 7, 0, 36, -9]
-const myNumbers2 = [8, -7, 42, 9, 13]
+// const temp1 = 42
+// const temp2 = 350
+// const temp3 = 212
+
+// // My Pseudo Code:
+// // Create a function called boilingPoint that takes in a number parameter
+// // if the number is at boiling point (212) then return the specified text
+// // else if the number is above the boiling point (350) then return the specified text
+// // else (42) log the only remaining specified text since it will be below the boiling point.
+// // log the output via function call inside console.log
+
+// const boilingPoint = (sample) => {
+//     if (sample === 212) {
+//         return "212 is at boiling point"
+//     } else if (sample === 350) {
+//         return "350 is above boiling point"
+//     } else {
+//         return "42 is below boiling point"
+//     }
+// }
+// console.log(boilingPoint(temp1)) // --> 42 is below boiling point
+// console.log(boilingPoint(temp2)) // --> 350 is above boiling point
+// console.log(boilingPoint(temp3)) // --> 212 is at boiling point
+
+
+
+
+
+// // --------------------2) Create the code that will combine the two arrays and return the length using the variables provided below. Expected output: 10
+
+// const myNumbers1 = [3, 7, 0, 36, -9]
+// const myNumbers2 = [8, -7, 42, 9, 13]
+
+// // My pseudo code:
+// // log the first variable and use .concat method that contains the second variable
+// // attach a .length method to the concat method to return the new length of the array
+
+// console.log(myNumbers1.concat(myNumbers2).length) // --> 10
+
+
 
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below. Expected output: "1202 ovarB"
