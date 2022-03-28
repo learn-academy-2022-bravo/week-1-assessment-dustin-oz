@@ -59,9 +59,20 @@
 
 
 
-// --------------------3) Create the code that will reverse the letters of a string using the test variable provided below. Expected output: "1202 ovarB"
+// // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below. Expected output: "1202 ovarB"
 
-const currentCohort = "Bravo 2022"
+// const currentCohort = "Bravo 2022"
+
+// // My pseudo code:
+// // log the given variable
+// // use the split method to break the string into an array
+// // use the reverse method to reverse the letters in the array
+// // use the join method to bring the letters in the array back together into a string.
+
+// console.log(currentCohort.split("").reverse().join("")) // --> 2202 ovarB
+
+
+
 
 
 // --------------------4) Create a statement that will evaluate whether each number in an array is even or odd. Use the test variable provided below. Expected output: "odd" "even" "odd" "even" "odd" "even"
